@@ -2,6 +2,15 @@ from test import *
 from train import *
 import constants as keys
 import argparse
+import random
+
+# Setting all the seeds
+my_seed = 0
+np.random.seed(my_seed)
+random.seed(my_seed)
+torch.manual_seed(my_seed)
+torch.cuda.manual_seed(my_seed)
+torch.backends.cudnn.benchmark = False
 
 # Parsing chosen dataset and train modality
 parser = argparse.ArgumentParser()
