@@ -1,6 +1,6 @@
 # Dropout Injection At Test Time For Post Hoc Uncertainty Quantification In Neural Networks
 
-This repository contains the reproducibility of experiments on UCI datasets conducted in our [Dropout Injection](https://www.arxiv.com "Dropout Injection") paper. 
+This repository contains the reproducibility of experiments on UCI datasets conducted in our [Dropout Injection](https://www.arxiv.com "Dropout Injection") paper (arXiv pre-print coming soon). 
 
 
 [![Open DropoutInjection in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1MKMxabc2Gwvkl42aLutzVCj2VILblulW#scrollTo=gxVrKIwcNBFH) Colab Coming Soon!
@@ -12,7 +12,7 @@ This repository contains the reproducibility of experiments on UCI datasets cond
 
 Now you turned your deterministic network to a probabilistic one without any further, time-consuming, retraining process!
 
-## How to Reproduce the Experiments :page_with_curl:
+## How to Reproduce the Experiments :bar_chart:
 You need to install the required library, including `torch`, `numpy`, `matplotlib` and `json`. We will add some further details about the requirements soon.
 
 The experiments have been conducted on 8 UCI datasets:
