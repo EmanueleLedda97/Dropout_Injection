@@ -36,3 +36,6 @@ python main.py --dataset 'bostonHousing' --mode 'train'
 ```
 python main.py --dataset 'bostonHousing' --mode 'test'
 ```
+
+## Datasets :file_cabinet:
+This work uses the publicly available [UCI datasets](https://archive.ics.uci.edu/ml/datasets.php) for the experiments. This code uses the same dataset split files available on the [repository](https://github.com/yaringal/DropoutUncertaintyExps) of Yarin Gal's work ["Dropout as a Bayesian Approximation: Representing Model Uncertainty in Deep Learning"](https://www.cs.ox.ac.uk/people/yarin.gal/website/publications.html#Gal2015Dropout).
