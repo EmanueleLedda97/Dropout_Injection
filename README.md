@@ -1,7 +1,6 @@
 # Dropout Injection At Test Time For Post Hoc Uncertainty Quantification In Neural Networks
 
-This repository contains the reproducibility of experiments on UCI datasets conducted in our [Dropout Injection](https://www.arxiv.com "Dropout Injection") paper (arXiv pre-print coming soon). 
-
+This repository contains the reproducibility of experiments on UCI datasets conducted in our [Dropout Injection](https://arxiv.org/abs/2302.02924) paper.
 
 [![Open DropoutInjection in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1MKMxabc2Gwvkl42aLutzVCj2VILblulW#scrollTo=gxVrKIwcNBFH) Colab Coming Soon!
 
