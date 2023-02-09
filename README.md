@@ -2,7 +2,9 @@
 
 This repository contains the reproducibility of experiments on UCI datasets conducted in our [Dropout Injection](https://arxiv.org/abs/2302.02924) paper.
 
-[![Open DropoutInjection in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1MKMxabc2Gwvkl42aLutzVCj2VILblulW#scrollTo=gxVrKIwcNBFH) Colab Coming Soon!
+[![Open DropoutInjection in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1MKMxabc2Gwvkl42aLutzVCj2VILblulW#scrollTo=gxVrKIwcNBFH)
+
+
 
 ## Methodology - From Deterministic to Probabilistic :magic_wand:
 1. Take your already-trained neural network
@@ -10,6 +12,8 @@ This repository contains the reproducibility of experiments on UCI datasets cond
 3. Scale the corresponding uncertainty measure usign a validation set
 
 Now you turned your deterministic network to a probabilistic one without any further, time-consuming, retraining process!
+
+![alt text](https://github.com/EmanueleLedda97/Dropout_Injection/blob/master/dropout_injection_illustration.jpg)
 
 ## How to Reproduce the Experiments :bar_chart:
 You need to install the required library, including `torch`, `numpy`, `matplotlib` and `json`. We will add some further details about the requirements soon.
