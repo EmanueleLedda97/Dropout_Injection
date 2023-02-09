@@ -8,7 +8,7 @@ This repository contains the reproducibility of experiments on UCI datasets cond
 
 ## Methodology - From Deterministic to Probabilistic :magic_wand:
 1. Take your already-trained neural network
-2. Inject dropout layers with a relatively small dropout rate
+2. Inject dropout layers on it
 3. Scale the corresponding uncertainty measure usign a validation set
 
 Now you turned your deterministic network to a probabilistic one without any further, time-consuming, retraining process!
