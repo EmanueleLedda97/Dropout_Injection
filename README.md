@@ -13,7 +13,7 @@ This repository contains the reproducibility of experiments on UCI datasets cond
 
 Now you turned your deterministic network to a probabilistic one without any further, time-consuming, retraining process!
 
-![alt text](https://github.com/EmanueleLedda97/Dropout_Injection/blob/master/dropout_injection_illustration.jpg)
+![alt text](https://github.com/EmanueleLedda97/Dropout_Injection/blob/master/illustration_injection.png)
 
 ## How to Reproduce the Experiments :bar_chart:
 You need to install the required library, including `torch`, `numpy`, `matplotlib` and `json`. We will add some further details about the requirements soon.
